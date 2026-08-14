@@ -33,7 +33,7 @@ jarvis-skills/
   "description": "一句话功能描述",
   "requires": "依赖（无则留空）",
   "skill_md": "skills/<id>/SKILL.md",
-  "install_cmd": "安装到 ~/.workbuddy/skills/ 的命令"
+  "install_cmd": "安装到 ~/.jarvis/skills/ 的命令"
 }
 ```
 
