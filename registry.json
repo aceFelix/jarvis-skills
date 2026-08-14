@@ -1,0 +1,15 @@
+{
+  "name": "jarvis-skills",
+  "description": "J.A.R.V.I.S 自定义 skill 市场 — 管理和存放新创建的 Agent 技能包",
+  "version": "1.0.0",
+  "skills": [
+    {
+      "id": "ai-agent-interviewer",
+      "display_name": "AI Agent 面试官",
+      "description": "模拟 AI Agent 开发工程师技术面试。面试官精通 Agent 运行时（ReAct/Function Calling/Tool Calling）、上下文管理与记忆系统、工具生态（MCP/CLI-Anything）、多模态（语音/视觉）、安全权限、RAG 知识库、AI 框架（LangChain/LangGraph/LangChain4j/SpringAI/SpringAI Alibaba），覆盖理论、架构、工程实现、框架对比、实战调优五个层次，附 100+ 分级面试题库",
+      "requires": "",
+      "skill_md": "skills/ai-agent-interviewer/SKILL.md",
+      "install_cmd": "xcopy /E /I /Y skills\\ai-agent-interviewer %USERPROFILE%\\.workbuddy\\skills\\ai-agent-interviewer"
+    }
+  ]
+}
